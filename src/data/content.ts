@@ -12,11 +12,11 @@ export const content = {
             iconBg: 'bg-purple-100 text-purple-700'
         },
         hero: {
-            badge: "Pentru liceeni (14+)",
+            badge: "Pentru elevi și liceeni",
             headline: "Nu mai depinde de ai tăi. <br/> <span class='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500'>Învață jocul banilor.</span>",
             subheadline: "Vrei festivaluri? Gadget-uri? Independență? Totul începe cu educația financiară pe care nu o primești la școală.",
             cta: "Vreau banii mei",
-            ctaLink: "https://bookzone.ro/carte/secretul-banilor-irina-chitu?srsltid=AfmBOoq7DUhciLu3P0fsZh0SNaIi0Nshv6AbZJZDSN9Y4me4LAaFHt2h"
+            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html"
         },
         benefits: [
             {
@@ -25,12 +25,12 @@ export const content = {
                 icon: "TrendingUp"
             },
             {
-                title: "Fără datorii proaste",
+                title: "Fără datorii problematice",
                 description: "Învață diferența dintre un activ și un pasiv înainte să fie prea târziu.",
                 icon: "ShieldAlert"
             },
             {
-                title: "Mindset de Hustler",
+                title: "Mindset de Antreprenor",
                 description: "Transformă fiecare oportunitate întrun venit potențial.",
                 icon: "Zap"
             }
@@ -62,13 +62,13 @@ export const content = {
                     name: "Irina Chițu",
                     role: "Expert Educație Financiară",
                     bio: "Fondator FinZoom.ro și Vicepreședinte AAFBR, cu peste 20 de ani de experiență în sectorul financiar-bancar. Irina este o voce activă în media, dedicată simplificării conceptelor financiare pentru toate generațiile.",
-                    image: "https://edituracorint.ro/pub/media/catalog/product/cache/f1406f50b4ecbe885d5646193796d8e0/9/7/9786060884617_2.jpg"
+                    image: "/irina.webp"
                 },
                 {
                     name: "Denisa Dascălu",
                     role: "Analist Financiar",
                     bio: "Analist financiar la FinZoom.ro din 2015, Denisa aduce o perspectivă proaspătă și analitică asupra pieței bancare. Co-autor al cărții, misiunea ei este de a echipa tinerii cu instrumentele necesare pentru independență.",
-                    image: "https://edituracorint.ro/pub/media/catalog/product/cache/f1406f50b4ecbe885d5646193796d8e0/9/7/9786060884617_3_1.jpg"
+                    image: "/denisa.webp"
                 }
             ]
         },
@@ -100,7 +100,38 @@ export const content = {
                     desc: "Setarea obiectivelor financiare SMART. Independența financiară nu e un vis, e un plan."
                 }
             ]
-        }
+        },
+        reviews: {
+            title: "Ce spun cititorii pe Goodreads",
+            list: [
+                {
+                    text: "De departe cea mai bună carte de educație financiară pe care am citit-o. [..] se aplică la realitatea economică în care trăim.",
+                    author: "Mircea Mocanu",
+                    role: "Goodreads Reviewer",
+                    avatar: "⭐"
+                },
+                {
+                    text: "Un ghid util pentru tinerii aflați la început de drum în 'viața finanțelor' [..] se recomandă și celor adulți deoarece vor găsi informații importante.",
+                    author: "Dunca Raoul",
+                    role: "Goodreads Reviewer",
+                    avatar: "📚"
+                },
+                {
+                    text: "O să tot recomand cartea asta. [..] explică foarte bine concepte de bază de educație financiară. [..] Cartea lămurește multe dintre problemele astea.",
+                    author: "Alex Olteanu",
+                    role: "Autor & Reviewer",
+                    avatar: "🖊️"
+                }
+            ]
+        },
+        asSeenOn: [
+            { name: "Pro TV", color: "text-blue-600" },
+            { name: "Digi24", color: "text-indigo-800" },
+            { name: "Aleph News", color: "text-black" },
+            { name: "Profit.ro", color: "text-red-700" },
+            { name: "BiziLive TV", color: "text-blue-500" },
+            { name: "București FM", color: "text-orange-600" }
+        ]
     },
     parent: {
         theme: {
@@ -119,7 +150,7 @@ export const content = {
             headline: "Pregătește-l pentru viață. <br/> <span class='text-blue-800'>Educația pe care școala o omite.</span>",
             subheadline: "Un viitor sigur începe cu obiceiuri financiare sănătoase. Oferă-i copilului tău avantajul pe care noi nu l-am avut.",
             cta: "Comandă Cartea",
-            ctaLink: "https://bookzone.ro/carte/secretul-banilor-irina-chitu?srsltid=AfmBOoq7DUhciLu3P0fsZh0SNaIi0Nshv6AbZJZDSN9Y4me4LAaFHt2h"
+            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html"
         },
         benefits: [
             {
@@ -139,22 +170,22 @@ export const content = {
             }
         ],
         press: {
-            title: "Recomandat de Experți | Apariții Media",
+            title: "Apariții Media",
             videos: [
                 {
-                    title: "Cum să gestionezi banii - Canal 33",
-                    thumbnail: "https://img.youtube.com/vi/CE6tTlzaFXK/hqdefault.jpg",
-                    url: "https://www.youtube.com/watch?v=CE6tTlzaFXK"
+                    title: "De la ZERO la INVESTITOR cu Irina Chitu",
+                    thumbnail: "https://img.youtube.com/vi/jKnIC4TCIac/hqdefault.jpg",
+                    url: "https://www.youtube.com/watch?v=jKnIC4TCIac"
                 },
                 {
-                    title: "FinZoom la Profit.ro",
-                    thumbnail: "https://img.youtube.com/vi/v4K5KMyEvjm/hqdefault.jpg",
-                    url: "https://www.youtube.com/watch?v=v4K5KMyEvjm"
+                    title: "Vreau sa stiu - cunostiinte financiare",
+                    thumbnail: "https://img.youtube.com/vi/5aDRAjakmsM/hqdefault.jpg",
+                    url: "https://www.youtube.com/watch?v=5aDRAjakmsM"
                 },
                 {
-                    title: "Interviu BiziLive TV",
-                    thumbnail: "https://img.youtube.com/vi/BezV8uAwRFy/hqdefault.jpg",
-                    url: "https://www.youtube.com/watch?v=BezV8uAwRFy"
+                    title: "CSALB - Alexandru Paunescu",
+                    thumbnail: "https://img.youtube.com/vi/TKzhz29Vpkk/hqdefault.jpg",
+                    url: "https://www.youtube.com/watch?v=TKzhz29Vpkk&pp=ygUsZWR1Y2F0aWUgZmluYW5jaWFyYSBsYSBwcm9maXQgcm8gaXJpbmEgY2hpdHU%3D"
                 }
             ]
         },
@@ -165,13 +196,13 @@ export const content = {
                     name: "Irina Chițu",
                     role: "Expert în Educație Financiară",
                     bio: "Mama și profesionist, Irina Chițu a fondat FinZoom.ro și este unul dintre cei mai recunoscuți experți în educație financiară din România. Experiența ei vastă ajută părinții să crească generații responsabile financiar.",
-                    image: "https://edituracorint.ro/pub/media/catalog/product/cache/f1406f50b4ecbe885d5646193796d8e0/9/7/9786060884617_2.jpg"
+                    image: "/irina.webp"
                 },
                 {
                     name: "Denisa Dascălu",
                     role: "Analist Financiar",
                     bio: "Analist financiar cu o viziune practică asupra economiei, Denisa Dascălu contribuie la simplificarea mecanismelor financiare complexe, făcându-le accesibile pentru copii și adolescenți prin cartea de față.",
-                    image: "https://edituracorint.ro/pub/media/catalog/product/cache/f1406f50b4ecbe885d5646193796d8e0/9/7/9786060884617_3_1.jpg"
+                    image: "/denisa.webp"
                 }
             ]
         },
@@ -203,7 +234,38 @@ export const content = {
                     desc: "Construirea unui mindset financiar sănătos care să îi asigure independența."
                 }
             ]
-        }
+        },
+        reviews: {
+            title: "Ce spun experții și cititorii",
+            list: [
+                {
+                    text: "O carte foarte bine documentată, cu un limbaj prietenos și aplicată condițiilor din România [..] O recomand!",
+                    author: "Adrian",
+                    role: "Goodreads Reviewer",
+                    avatar: "✔️"
+                },
+                {
+                    text: "De departe cea mai bună carte de educație financiară pe care am citit-o. [..] se aplică la realitatea economică în care trăim.",
+                    author: "Mircea Mocanu",
+                    role: "Goodreads Reviewer",
+                    avatar: "⭐"
+                },
+                {
+                    text: "O să tot recomand cartea asta. [..] explică foarte bine concepte de bază de educație financiară. [..] Cartea lămurește multe dintre problemele astea.",
+                    author: "Alex Olteanu",
+                    role: "Autor & Reviewer",
+                    avatar: "🖊️"
+                }
+            ]
+        },
+        asSeenOn: [
+            { name: "Pro TV", color: "text-blue-600" },
+            { name: "Digi24", color: "text-indigo-800" },
+            { name: "Aleph News", color: "text-black" },
+            { name: "Profit.ro", color: "text-red-700" },
+            { name: "BiziLive TV", color: "text-blue-500" },
+            { name: "București FM", color: "text-orange-600" }
+        ]
     }
 };
 

@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({ mode, setMode }) => {
                 </button>
 
                 <a
-                    href="https://bookzone.ro/carte/secretul-banilor-irina-chitu?srsltid=AfmBOoq7DUhciLu3P0fsZh0SNaIi0Nshv6AbZJZDSN9Y4me4LAaFHt2h"
+                    href="https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`hidden md:block px-6 py-2.5 rounded-xl font-bold text-sm transition-all transform hover:-translate-y-0.5 ${theme.button}`}
