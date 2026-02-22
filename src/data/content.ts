@@ -16,7 +16,10 @@ export const content = {
             headline: "Nu mai depinde de ai tăi. <br/> <span class='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500'>Învață jocul banilor.</span>",
             subheadline: "Vrei festivaluri? Gadget-uri? Independență? Totul începe cu educația financiară pe care nu o primești la școală.",
             cta: "Vreau banii mei",
-            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html"
+            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html",
+            // Add these two lines:
+            sampleCta: "Citește din carte",
+            sampleCtaLink: "https://m.edituracorint.ro/fragment/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.pdf"
         },
         benefits: [
             {
@@ -150,7 +153,10 @@ export const content = {
             headline: "Pregătește-l pentru viață. <br/> <span class='text-blue-800'>Educația pe care școala o omite.</span>",
             subheadline: "Un viitor sigur începe cu obiceiuri financiare sănătoase. Oferă-i copilului tău avantajul pe care noi nu l-am avut.",
             cta: "Comandă Cartea",
-            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html"
+            ctaLink: "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html",
+            // Add these two lines:
+            sampleCta: "Citește din carte",
+            sampleCtaLink: "https://m.edituracorint.ro/fragment/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.pdf"
         },
         benefits: [
             {

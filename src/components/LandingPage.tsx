@@ -47,14 +47,23 @@ export const LandingPage = () => {
                                 {content[mode].hero.subheadline}
                             </p>
 
-                            <div className="pt-4">
+                            <div className="pt-4 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
                                 <a
                                     href={content[mode].hero.ctaLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={`inline-block px-10 py-4 text-lg rounded-xl font-bold transition-all transform hover:scale-105 active:scale-95 ${theme.button}`}
+                                    className={`inline-block px-10 py-4 text-lg text-center rounded-xl font-bold transition-all transform hover:scale-105 active:scale-95 w-full sm:w-auto ${theme.button}`}
                                 >
                                     {content[mode].hero.cta}
+                                </a>
+
+                                <a
+                                    href={content[mode].hero.sampleCtaLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`inline-block px-10 py-4 text-lg text-center rounded-xl font-bold transition-all transform hover:scale-105 active:scale-95 w-full sm:w-auto bg-slate-100 text-slate-800 hover:bg-slate-200 border border-slate-200`}
+                                >
+                                    {content[mode].hero.sampleCta}
                                 </a>
                             </div>
                         </div>
