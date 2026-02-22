@@ -30,6 +30,7 @@ export const Press: React.FC<Props> = ({ mode }) => {
                                 <img
                                     src={video.thumbnail}
                                     alt={video.title}
+                                    loading="lazy"
                                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                                 />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">

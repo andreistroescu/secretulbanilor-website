@@ -1,24 +1,50 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
-import '../styles/global.css';
+import "../styles/global.css";
 ---
 
 <!doctype html>
 <html lang="ro">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "Secretul Banilor - Educația financiară pe care nu o înveți la școală",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Irina Chițu"
+          },
+          {
+            "@type": "Person",
+            "name": "Denisa Dascălu"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Editura Corint"
+        },
+        "inLanguage": "ro",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://edituracorint.ro/secretul-banilor-educatia-financiara-pe-care-nu-o-inveti-la-scoala.html",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
-

@@ -76,6 +76,7 @@ export const LandingPage = () => {
                                 <img
                                     src="/book-cover.jpg"
                                     alt="Secretul Banilor - Coperta"
+                                    loading="lazy"
                                     className="rounded-r-xl rounded-l-md shadow-2xl object-cover h-full w-full"
                                 />
 

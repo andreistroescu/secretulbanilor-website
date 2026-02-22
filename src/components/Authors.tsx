@@ -33,6 +33,7 @@ export const Authors: React.FC<Props> = ({ mode }) => {
                                 <img
                                     src={author.image}
                                     alt={author.name}
+                                    loading="lazy"
                                     className="relative w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500 shadow-md"
                                 />
                             </div>

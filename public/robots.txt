@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://secretul-banilor.ro/sitemap-index.xml
