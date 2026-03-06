@@ -1,3 +1,4 @@
+
 export const content = {
     student: {
         theme: {
@@ -128,7 +129,7 @@ export const content = {
             ]
         },
         asSeenOn: [
-            { name: "Pro TV", color: "text-blue-600" },
+            { name: "TVR1", color: "text-blue-600" },
             { name: "Digi24", color: "text-indigo-800" },
             { name: "Aleph News", color: "text-black" },
             { name: "Profit.ro", color: "text-red-700" },
@@ -265,7 +266,7 @@ export const content = {
             ]
         },
         asSeenOn: [
-            { name: "Pro TV", color: "text-blue-600" },
+            { name: "TVR1", color: "text-blue-600" },
             { name: "Digi24", color: "text-indigo-800" },
             { name: "Aleph News", color: "text-black" },
             { name: "Profit.ro", color: "text-red-700" },

@@ -47,6 +47,18 @@ export const Press: React.FC<Props> = ({ mode }) => {
                         </a>
                     ))}
                 </div>
+
+                <div className="mt-12 text-center">
+                    <a
+                        href="https://www.youtube.com/playlist?list=PLQtuhsDca4jykitMzucYDdztg22TRSYVK"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-8 py-3 bg-white text-slate-700 font-bold rounded-full border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all shadow-sm group"
+                    >
+                        Pentru mai multe clipuri, intră aici pe YouTube
+                        <span className="transform group-hover:translate-x-1 transition-transform text-red-500">→</span>
+                    </a>
+                </div>
             </div>
         </section>
     );

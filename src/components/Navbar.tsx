@@ -5,13 +5,14 @@ import { Logo } from './Logo';
 interface NavbarProps {
     mode: ContentMode;
     setMode: (mode: ContentMode) => void;
+    isMobile?: boolean;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ mode, setMode }) => {
+export const Navbar: React.FC<NavbarProps> = ({ mode, setMode, isMobile }) => {
     const theme = content[mode].theme;
 
     return (
-        <nav className={`w-full p-4 flex justify-between items-center transition-all duration-500 bg-white/95 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50`}>
+        <nav className={`w-full p-4 flex justify-between items-center transition-all duration-500 bg-white/95 backdrop-blur-md border-b border-gray-100 ${!isMobile ? 'sticky top-0 z-50' : ''}`}>
             <Logo />
 
             <div className="flex items-center gap-4">
